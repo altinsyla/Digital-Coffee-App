@@ -31,6 +31,7 @@ const SplashScreen = () => {
         />
       </div>
       <div className="mt-8">
+        <p>Nga kokerr ne filxhan</p>
         <div className="flex space-x-2 justify-center items-center">
           {[1, 2, 3].map((i) => (
             <div 

@@ -14,7 +14,7 @@ const sampleProducts: Product[] = [
     description: "Pure, rich coffee shot",
     price: 2.75,
     category: "coffee",
-    image: "https://images.unsplash.com/photo-1510591509098-f4b5d5919d06?w=500&h=500&fit=crop"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYs8803ekgG4FFAR923xOFtkojgQWzKY5xLw&s"
   },
   {
     id: "c2",

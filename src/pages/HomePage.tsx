@@ -71,10 +71,13 @@ const HomePage = () => {
           <h1 className="text-3xl font-serif font-bold">{user.name}</h1>
         </div>
         <div className="flex items-center">
-          <span className="bg-coffee-caramel text-coffee-espresso rounded-full px-2 py-1 text-xs font-medium flex items-center">
-            <Heart className="w-3 h-3 mr-1" />
-            {user.loyaltyPoints} pts
-          </span>
+        <span
+          className="text-coffee-espresso rounded-full px-2 py-1 text-white font-medium flex items-center"
+          style={{ backgroundColor: "#275548" }}
+        >
+          <Heart className="w-3 h-3 mr-1" />
+          {user.loyaltyPoints} pts
+        </span>
         </div>
       </div>
       
@@ -95,7 +98,7 @@ const HomePage = () => {
           <div className="flex flex-col space-y-3">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-coffee-caramel/20 rounded-full flex items-center justify-center">
-                <Coffee className="w-6 h-6 text-coffee-caramel" />
+                <Coffee className="w-6 h-6 text-coffee-white" />
               </div>
               <div>
                 <h4 className="font-medium text-coffee-cream">Americano</h4>
@@ -112,7 +115,7 @@ const HomePage = () => {
               </Button>
               <Button 
                 variant="outline" 
-                className="border-coffee-cream/30 text-black hover:bg-coffee-espresso/30"
+                className="border-coffee-cream/30 hover:bg-artCoffeeGreen text-black hover:text-white"
                 onClick={handleCustomizeClick}
               >
                 Customize
@@ -124,30 +127,32 @@ const HomePage = () => {
       
       {/* Quick Actions */}
       <div className="grid grid-cols-3 gap-3">
-        <Button 
-          variant="outline" 
-          className="flex flex-col h-auto py-4 border-coffee-latte text-black"
-          onClick={() => navigate("/order")}
-        >
-          <Coffee className="h-5 w-5 mb-1" />
-          <span className="text-xs">Order</span>
-        </Button>
-        <Button 
-          variant="outline" 
-          className="flex flex-col h-auto py-4 border-coffee-latte text-black"
-          onClick={() => navigate("/qr-scan")}
-        >
-          <Zap className="h-5 w-5 mb-1" />
-          <span className="text-xs">Quick Scan</span>
-        </Button>
-        <Button 
-          variant="outline" 
-          className="flex flex-col h-auto py-4 border-coffee-latte text-black"
-          onClick={() => navigate("/loyalty")}
-        >
-          <Heart className="h-5 w-5 mb-1" />
-          <span className="text-xs">Loyalty</span>
-        </Button>
+      <Button 
+        variant="outline" 
+        className="group flex flex-col h-auto py-4 border-coffee-latte text-black group-hover:text-white"
+        onClick={() => navigate("/order")}
+      >
+        <Coffee className="h-5 w-5 mb-1 group-hover:text-white" />
+        <span className="text-xs group-hover:text-white">Order</span>
+      </Button>
+
+      <Button 
+        variant="outline" 
+        className="group flex flex-col h-auto py-4 border-coffee-latte text-black group-hover:text-white"
+        onClick={() => navigate("/qr-scan")}
+      >
+        <Zap className="h-5 w-5 mb-1 group-hover:text-white" />
+        <span className="text-xs group-hover:text-white">Quick Scan</span>
+      </Button>
+
+      <Button 
+        variant="outline" 
+        className="group flex flex-col h-auto py-4 border-coffee-latte text-black group-hover:text-white"
+        onClick={() => navigate("/loyalty")}
+      >
+        <Heart className="h-5 w-5 mb-1 group-hover:text-white" />
+        <span className="text-xs group-hover:text-white">Loyalty</span>
+      </Button>
       </div>
       
       {/* Featured Items */}

@@ -74,7 +74,7 @@ const LoyaltyPage = () => {
               <h3 className="text-3xl font-serif font-bold">{loyaltyPoints}</h3>
             </div>
             <div className="w-12 h-12 bg-coffee-caramel/20 rounded-full flex items-center justify-center">
-              <Heart className="w-6 h-6 text-coffee-caramel" />
+              <Heart className="w-6 h-6 text-coffee-black" />
             </div>
           </div>
           

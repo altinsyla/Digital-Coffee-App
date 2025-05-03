@@ -46,14 +46,15 @@ const BottomNav = () => {
               to={item.path}
               className="flex flex-col items-center justify-center py-1"
             >
-              <div 
-                className={cn(
-                  "p-2 rounded-full transition-all",
-                  isActive 
-                    ? "bg-coffee-caramel text-coffee-espresso" 
-                    : "text-coffee-mocha/70 hover:text-coffee-espresso"
-                )}
-              >
+            <div 
+  className={cn(
+    "p-2 rounded-full transition-all",
+    isActive 
+      ? "text-white"  // Font color white when active
+      : "text-coffee-mocha/70 hover:text-coffee-espresso"
+  )}
+  style={isActive ? { backgroundColor: "#275548" } : {}}
+>
                 <item.icon className="w-5 h-5" />
               </div>
               <span 
