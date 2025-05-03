@@ -51,7 +51,7 @@ const products: Product[] = [
     description: "Smooth, cold-extracted coffee",
     price: 5.25,
     category: "coffee",
-    image: "https://images.unsplash.com/photo-1620360289812-0b9443ca9add?w=500&h=500&fit=crop"
+    image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9eada0d203bfb580d801b478edd553465c7afb52"
   },
   {
     id: "c5",
@@ -67,7 +67,7 @@ const products: Product[] = [
     description: "Espresso with velvety steamed milk",
     price: 4.95,
     category: "coffee",
-    image: "https://images.unsplash.com/photo-1635213962267-7c4b4ae11396?w=500&h=500&fit=crop"
+    image: "https://prod-app.breville.com/original/recipe/1724048842/Flat+White-Leaf+Latte+1080x1440.jpg"
   },
   
   // Pastry
@@ -85,7 +85,7 @@ const products: Product[] = [
     description: "Rich, chocolate chip muffin",
     price: 4.25,
     category: "pastry",
-    image: "https://images.unsplash.com/photo-1607958996333-41320f78bd60?w=500&h=500&fit=crop"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZArWNCDn0cVwlm7USmqniaNakVU0T58bvQ&s"
   },
   {
     id: "p3",
@@ -109,7 +109,7 @@ const products: Product[] = [
     description: "Chocolate-filled croissant",
     price: 3.95,
     category: "pastry",
-    image: "https://images.unsplash.com/photo-1623334044303-241021148943?w=500&h=500&fit=crop"
+    image: "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/PainAuChoc-0ff983a.jpg?resize=900%2C471"
   },
   
   // Drinks (non-coffee)
@@ -119,7 +119,7 @@ const products: Product[] = [
     description: "Green tea powder with steamed milk",
     price: 5.50,
     category: "drink",
-    image: "https://images.unsplash.com/photo-1536411396733-d53c5c2b4705?w=500&h=500&fit=crop"
+    image: "https://cdn.loveandlemons.com/wp-content/uploads/2023/06/iced-matcha-latte.jpg"
   },
   {
     id: "d2",
@@ -127,7 +127,7 @@ const products: Product[] = [
     description: "Spiced tea with steamed milk",
     price: 5.25,
     category: "drink",
-    image: "https://images.unsplash.com/photo-1576091066994-c8e1a5d5c4f4?w=500&h=500&fit=crop"
+    image: "https://www.modernfarmhouseeats.com/wp-content/uploads/2022/01/starbucks-chai-tea-latte-12.jpg"
   },
   {
     id: "d3",
@@ -161,7 +161,7 @@ const products: Product[] = [
     description: "Seasonal favorite with real pumpkin",
     price: 5.75,
     category: "seasonal",
-    image: "https://images.unsplash.com/photo-1569437254919-ff0c9d063e8e?w=500&h=500&fit=crop"
+    image: "https://coffeecopycat.com/wp-content/uploads/2023/10/IcedPumpkinSpiceLatte-1200-x-1200.jpg"
   },
   {
     id: "s2",
@@ -177,7 +177,7 @@ const products: Product[] = [
     description: "Festive mint with chocolate and espresso",
     price: 5.95,
     category: "seasonal",
-    image: "https://images.unsplash.com/photo-1571533356082-6cb0bc000dde?w=500&h=500&fit=crop"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT12AQtEzCUaCcU1GieIIPR5Rx6E2K-KuD9ig&s"
   }
 ];
 
