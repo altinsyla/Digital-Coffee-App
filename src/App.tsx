@@ -14,7 +14,7 @@ import OrderPage from "./pages/OrderPage";
 import QrScanPage from "./pages/QrScanPage";
 import LoyaltyPage from "./pages/LoyaltyPage";
 import NotFound from "./pages/NotFound";
-
+import WholesalePage from "./pages/WholesalePage";
 // Components
 import ChatbotButton from "./components/chat/ChatbotButton";
 
@@ -40,6 +40,7 @@ const App = () => (
               <Route path="/order" element={<OrderPage />} />
               <Route path="/qr-scan" element={<QrScanPage />} />
               <Route path="/loyalty" element={<LoyaltyPage />} />
+              <Route path="/wholesale" element={<WholesalePage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
             <ChatbotButton />

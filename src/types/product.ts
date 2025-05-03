@@ -4,7 +4,7 @@ export interface Product {
   name: string;
   description: string;
   price: number;
-  category: "coffee" | "pastry" | "drink" | "seasonal";
+  category: "coffee" | "pastry" | "drink" | "seasonal" | "wholesale";
   image?: string;
   custom?: boolean;
 }
