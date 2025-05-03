@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+☕ Art Coffee – Digital Café Companion
+Art Coffee is a personalized mobile café companion that revolutionizes how customers order coffee, track their health preferences, and engage with local coffee shops. From custom ordering and health-conscious suggestions to B2B wholesale and loyalty gamification, Art Coffee blends personalization, community, and innovation into one powerful app.
 
-## Project info
+📱 Features Overview
+1. Authentication + Health Profile
+Secure sign-in via email, phone, Google/Apple.
 
-**URL**: [https://lovable.dev/projects/866d367c-7882-4bf4-ad64-8af80982e330](https://art-coffee-digital-cafe.lovable.app/)
+Optional health profile (allergies, chronic conditions, dietary preferences).
 
-## How can I edit this code?
+GDPR-compliant encryption with opt-in AI personalization.
 
-There are several ways of editing your application.
+Loyalty points, caffeine limits, and saved recipes accessible in profile.
 
-**Use Lovable**
+2. Custom Ordering ("Make Your Own Coffee")
+Step-by-step builder with bean type, milk, caffeine, sweeteners, and add-ons.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/866d367c-7882-4bf4-ad64-8af80982e330) and start prompting.
+Live cup preview for a visual experience.
 
-Changes made via Lovable will be committed automatically to this repo.
+Save and re-order your favorite recipes instantly.
 
-**Use your preferred IDE**
+3. QR Scan & Order at Table
+Scan QR to auto-link your table.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Real-time order status (Queued → Preparing → Served).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Add more items without creating a new order.
 
-Follow these steps:
+4. Loyalty Points & Gamification
+Earn points for every € spent.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Unlock rewards like free drinks or coffee bags.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Time-based events like "Double Points Wednesdays".
 
-# Step 3: Install the necessary dependencies.
-npm i
+5. Digital Gift Cards
+Send digital gift cards with a custom message & GIF.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Redeemable via unique QR code.
 
-**Edit a file directly in GitHub**
+Balance and history tracked within the app.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+6. Wholesale Coffee (B2B)
+Catalog of bulk items: 1kg/5kg bags, capsules, accessories.
 
-**Use GitHub Codespaces**
+Dynamic pricing tiers and subscriptions.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Business dashboard for tracking orders, invoices, and deliveries.
 
-## What technologies are used for this project?
+7. AI Recommendations & Chatbot
+Suggests ideal coffee + dessert based on weather, time, and health.
 
-This project is built with:
+Natural language chatbot handles questions like “I’m tired” or “I’m lactose intolerant”.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+One-tap ordering from suggestions.
 
-## How can I deploy this project?
+8. Owner Dashboard
+Sales analytics, top products, and heatmaps of table activity.
 
-Simply open [Lovable](https://lovable.dev/projects/866d367c-7882-4bf4-ad64-8af80982e330) and click on Share -> Publish.
+Barista performance metrics and campaign management.
 
-## Can I connect a custom domain to my Lovable project?
+Full control of loyalty and subscription settings.
 
-Yes, you can!
+9. Top-Up Wallet
+Load credits via Apple Pay, Google Pay, or Stripe.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
++5% bonus for top-ups over €30.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Streamlined ordering with no card re-entry.
+
+10. One-Tap Reorder & “Morning Routine”
+Learns your habits and preps your coffee before you even open the app.
+
+Sends timely push notifications based on past behavior.
+
+11. Health & Caffeine Tracker
+Tracks caffeine and sugar intake.
+
+Visual progress bar and decaf suggestions when limits are hit.
+
+12. Coffee Pass (Subscriptions)
+Daily Pass: €30/month → 1 drink/day.
+
+Discount Pass: €20/month → -20% on all drinks.
+
+QR scan usage, auto-renewal, and friendly reminders.
